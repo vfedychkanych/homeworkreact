@@ -1,7 +1,11 @@
+import {Posts} from "./components/PostContainer/Posts";
+import {SpaceX} from "./components/PostContainer/SpaceX/SpaceX";
+
 const App = () => {
   return (
       <div>
-         App
+            <Posts/>
+          <SpaceX/>
       </div>
   );
 };
